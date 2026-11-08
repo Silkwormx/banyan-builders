@@ -1,0 +1,25 @@
+Banyan Builders picture map
+Verified against app_sample/js/screens.js (home TILES, Nov 3 2026 plan) and the files in app_sample/img/units/.
+
+The reading app home order begins with tile01.webp, tagged gong in that app (a gong under a banyan). That file is not shipped here and is not shown.
+
+The next eight paintings, unchanged, in that order:
+
+1. img/tile02.webp  red         sha256 021894479e56b946cdddfe40cb99bdacb64eab6d5eba945587ee0649b7ce0d58
+2. img/tile03.webp  coral       sha256 08dbed026bd6c79028f7d4c000581d605981b343ba1852a1e87b55610c88d27f
+3. img/tile04.webp  orange      sha256 5361090c1b94753904705eace4064a2c0eebd5c2767468c3c8d1f9a82564f24b
+4. img/tile05.webp  yellow      sha256 0def45bff456176281eba73dac284ecbf6a8dbbf211d2546083043918075a20e
+5. img/tile06.webp  green       sha256 d6de92dc938531219d309d465d27b17893dca9597a5276496fe796d74cde2d74
+6. img/tile07.webp  light blue  sha256 6563531db192b61064986666d7254a836451a80c226f453f9208efa57e805407
+7. img/tile08.webp  dark blue   sha256 bd28efe693b33bc634dc32c86e423999b8726b9859acbdc21c3d659d9d1aef30
+8. img/tile09.webp  purple      sha256 a4849552c80baba50369eec7ec735b2671a79c4a2057194300c3b12229a055a2
+
+Each file in img/ is a byte copy of app_sample/img/units/ of the same name. They were not recolored or regenerated.
+
+Hero portrait, separate from those paintings:
+  img/banyan_home_hero.jpg
+  sha256 74d4ee27791d910e7ae060bcedebd735f32812dab3fa155d9689021e7136a8aa
+  1280x720 JPEG. Approved ant-builder scene (wingless, short rounded faces, no scarves, blueprints).
+  It is not one of the eight bell paintings and was not recolored.
+
+Only the red bough (tile02) is a writing activity. The other seven open a future-preview page.
