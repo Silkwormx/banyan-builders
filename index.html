@@ -5,18 +5,62 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
 <meta name="robots" content="noindex, nofollow">
-<title>Banyan Builders</title>
-<meta name="description" content="Build a thought. Create a world. A private adult writing demo for organizing your own ideas into one clear description.">
-<meta name="theme-color" content="#FFF8E7">
+<title>The Colony</title>
+<meta name="description" content="A review draft. Brick and Dash build one small home on Mars with real science, jokes, and demo ANTS that are not money.">
+<meta name="theme-color" content="#2A1C14">
 <link rel="icon" href="favicon.svg">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="colony.css">
 </head>
 <body>
-<a class="skip" href="#app">Skip to content</a>
-<div id="app"></div>
-<p id="live" class="sr" aria-live="polite"></p>
-<p id="apperr" class="apperr" hidden>Something on the page stopped. If a draft was saved, it may still be in this browser. Copy from the last screen if you can.</p>
-<noscript><p class="noscript">Banyan Builders needs JavaScript to open the writing pages. Nothing is sent to a server.</p></noscript>
-<script src="js/app.js"></script>
+<a class="skip" href="#main">Skip to the dome</a>
+<header class="bar">
+  <a class="mark" href="#/home">The Colony</a>
+  <p class="jar" id="jar" aria-live="polite">Demo ANTS: 10</p>
+  <button type="button" class="textbtn" id="calm">Calm motion</button>
+  <button type="button" class="textbtn" id="open-sources">Sources</button>
+</header>
+<nav class="places" aria-label="Colony places">
+  <a href="#/home">Home</a>
+  <a href="#/workshop">Workshop</a>
+  <a href="#/greenhouse">Greenhouse</a>
+  <a href="#/cinema">Cinema</a>
+  <a href="#/treehouse">Treehouse</a>
+</nav>
+<main id="main" tabindex="-1"></main>
+<footer class="colophon">
+  <p>Demo ANTS stay in this browser. They are not money, not a coin, and not a wage.</p>
+  <p><a href="#/support">Adult note</a> · This review draft is not the live site.</p>
+</footer>
+<dialog id="drawer" aria-labelledby="drawer-title">
+  <div class="drawer-body">
+    <h2 id="drawer-title">Measured, simplified, and made up</h2>
+    <p>The jokes are the ride. These notes are the curb, so the story does not smuggle in a fake Mars.</p>
+    <h3>Measured on Mars</h3>
+    <ul>
+      <li>Mars is a cold desert with a very thin atmosphere, almost all carbon dioxide. A NASA Goddard fact sheet lists about 95.1% carbon dioxide, about 0.16% oxygen, and a mean surface pressure of 6.36 millibars, well under one percent of Earth's air at sea level. Average temperature is about −59 °C. <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html">NASA Mars Fact Sheet</a></li>
+      <li>Sunlight arrives, but more weakly than at Earth. The same fact sheet lists solar irradiance of 586 watts per square meter, about 43% of Earth's. The air is too thin for liquid water to last in the open. Water is there as ice, including ice the Phoenix lander found in the ground. <a href="https://science.nasa.gov/mars/facts/">NASA Mars Facts</a></li>
+      <li>The red comes from iron oxide in the dust and rocks. By day a dusty sky looks yellow, brown, or butterscotch. Fine dust lets blue light pass a little more easily than red, then scatters that blue forward, so the blue stays near the Sun at sunrise and sunset. The rest of the sky does not turn blue. <a href="https://science.nasa.gov/solar-system/planets/mars/what-does-a-sunrise-sunset-look-like-on-mars/">NASA: What sunrises and sunsets look like on Mars</a> · <a href="https://science.nasa.gov/resource/color-variations-in-the-sky-at-sunset/">Pathfinder sunset colors</a> · <a href="https://science.nasa.gov/resource/sunset-at-mars-gale-crater-curiosity/">Curiosity sunset at Gale crater</a></li>
+      <li>Phoenix found perchlorate, a few tenths of a percent, in all three soil samples its wet-chemistry lab tested. That is a salty oxidizer, not a bag of potting soil. Raw regolith is not used as a garden bed in this story. <a href="https://www.jpl.nasa.gov/news/nasa-phoenix-results-point-to-martian-climate-cycles/">JPL: Phoenix results</a></li>
+      <li>A toaster-sized rover experiment called MOXIE made oxygen by splitting carbon dioxide. Its first run produced about 5 grams in an hour, roughly ten minutes of breathing for one person. Useful as a test. Not a breathable planet. <a href="https://www.nasa.gov/news-release/nasas-perseverance-mars-rover-extracts-first-oxygen-from-red-planet/">NASA: first oxygen from Mars air</a> · <a href="https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights/">Perseverance science highlights</a></li>
+      <li>NASA does not expect living things to be thriving on Mars now. Nothing here is terraforming, and nothing here is a discovered Martian.</li>
+    </ul>
+    <h3>Simplified in this toy</h3>
+    <ul>
+      <li>The sun, tank, and sprout are on-off steps. They are not a sized life-support model, and the meters are not engineering data.</li>
+      <li>A real oxygen machine has to get very hot and still makes a small amount. The workshop kettle does not do that. It only shows the idea: power, then a filter, then a result you can see.</li>
+      <li>Dust really hangs in the air and can cover solar equipment. Brushing the panel clean for a flat fee is a story shortcut, not a dust-storm forecast.</li>
+      <li>Demo ANTS are a number in this browser. Spending them changes the picture. It does not buy anything outside the page.</li>
+    </ul>
+    <h3>Made up for the story</h3>
+    <ul>
+      <li>Talking ants, the prices, the blue door, the cinema night, and a sprout that "helps the air" are fiction. A sprout does not make this dome safe to open.</li>
+      <li>The clear ribs in the painting are story art. A habitat on Mars would have to be a sealed, pressurized, insulated, shielded shell. Ordinary glass does not hold in air, hold heat, or stop radiation by being transparent.</li>
+      <li>"Do more with less" is a builder's habit in the spirit of R. Buckminster Fuller. It is not a law of physics, and the dome is not a guaranteed utopia. Waste, dust, and maintenance remain.</li>
+      <li>The character sheet includes a cliff study with an ocean and a bell. That picture is not a place inside this dome, so the story shows only the dusk portraits from the top of the sheet.</li>
+    </ul>
+    <button type="button" class="btn" id="close-sources">Close sources</button>
+  </div>
+</dialog>
+<script src="colony.js"></script>
 </body>
 </html>
